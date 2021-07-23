@@ -1,0 +1,692 @@
+html * {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  color: #505962;
+}
+
+/*--- Fixed Video Background iOS/Mobile Style--*/
+.video-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url("") no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.video p,
+h2,
+h3 {
+  text-align: center;
+}
+
+.video h2 {
+  margin-top: 250px;
+  letter-spacing: 0.625rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  color: white;
+  line-height: 0.8;
+}
+
+.video h3 {
+  font-size: 3rem;
+  letter-spacing: 0.625rem;
+  font-weight: 700;
+  color: #0098d5;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  line-height: 1.3;
+}
+
+.video p {
+  font-size: 1.125rem;
+  color: white;
+  line-height: 1.7;
+  font-weight: 400;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  -webkit-box-sizing: border-box;
+}
+
+.appointment-button {
+  width: 90%;
+  margin: 0px auto;
+  display: block;
+}
+
+.bi-chevron-down {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+p.chevron {
+  margin: 200px auto -30px auto;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.4em;
+}
+
+.nav-location {
+  margin-top: -13px;
+}
+
+.blue-row-container {
+  display: block;
+  background-color: #0098d5e6;
+  padding: 0 auto;
+  /*min-height: calc(100vh - 70px);
+  background-color: rgba(0, 152, 213, 0.9);
+  position: relative;
+  top: 550px;*/
+}
+
+.billboard-bottom {
+  padding: 25px 50px 30px;
+  color: white;
+}
+
+.billboard-bottom h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.billboard-bottom p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.mid-icon {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.bluer {
+  background-color: #0082b6e6;
+}
+
+.bluest {
+  background-color: #006c98e6;
+}
+
+.convenient-container {
+  margin: 80px auto;
+}
+
+.default-header {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #444;
+}
+
+button.button-primary {
+  background-color: #0098d5;
+  padding: 0 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  line-height: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.service-header {
+  text-align: left;
+  /*padding-left: 40px;*/
+}
+
+.service-title {
+  text-align: right;
+  /*padding-right: 80px;*/
+}
+
+.icon-chevron-right {
+  padding-bottom: 5px;
+}
+
+.service-box {
+  height: 206px;
+  width: 100%;
+}
+
+.services-row {
+  margin-top: -15px;
+}
+
+.services-button {
+  position: relative;
+  top: 120px;
+  color: white;
+  margin: 0 auto;
+}
+
+.services-header h3 {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.services-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #f5f5f5;
+}
+
+.services-div {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.services-text {
+  position: absolute;
+  left: 77px;
+  top: 25px;
+
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.service-chevron-right {
+  float: right;
+  color: #ccc;
+}
+
+.smile-container {
+  background-image: url("../images/ripplebg.jpg");
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.smile-img {
+  height: auto;
+  width: 150%;
+}
+
+h2.smile-header {
+  color: white;
+}
+
+.smile-header:after {
+  border-bottom: none;
+}
+
+.smile-container h3 {
+  font-size: 1.625rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.smile-container p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+button.button-reverse {
+  background-color: white;
+  color: black;
+}
+
+.team-photo {
+  width: 100%;
+}
+
+.meet-dentist p {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  margin: 0 auto;
+  color: #231f20;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+
+.meet-dentist {
+  padding: 60px 65px;
+}
+
+.clients-say {
+  text-align: center;
+  background: linear-gradient(
+      rgba(240, 240, 240, 0.9),
+      rgba(240, 240, 240, 0.9)
+    ),
+    url("../images/fun-bg.png");
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.clients-say h2 {
+  text-align: center;
+}
+
+.clients-say p {
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.location-container {
+  background: linear-gradient(rgba(0, 134, 188, 0.85), rgba(0, 134, 188, 0.85)),
+    url("../images/office-blue-bg.jpg");
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  display: block;
+}
+
+.google-maps {
+  padding-left: 60px;
+}
+
+.location-time-container {
+  padding-bottom: 20px;
+}
+
+.location-header {
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.location-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  padding-right: 3px;
+}
+
+.location-time {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #fff;
+  display: block;
+  width: 80px;
+}
+
+.appointment-container {
+  background: linear-gradient(rgba(0, 79, 111, 0.65), rgba(0, 79, 111, 0.65)),
+    url("../images/exam-room-blue-bgtest.jpg");
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  text-align: center;
+}
+
+.appointment-container h2 {
+  text-align: center;
+}
+
+.contact-form {
+  padding: 50px 0 0 0px;
+  box-sizing: border-box;
+}
+
+.contact-form input::placeholder,
+textarea::placeholder {
+  background: #f5f5f5;
+  height: 100%;
+  padding: 15px 0 0 15px;
+  text-align: left;
+  color: #b3b3b3;
+}
+
+.contact-form input,
+textarea,
+select {
+  margin-top: 20px;
+  background-color: white;
+  font-size: 1.5rem;
+  border: none;
+  color: #b3b3b3;
+  height: 2em;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 28em;
+}
+
+.contact-form textarea {
+  height: 8em;
+  resize: none;
+}
+
+.contact-form input[type="submit"] {
+  background-color: white;
+  color: black;
+  font-weight: 50;
+  margin-left: 1px;
+  width: 10em;
+  margin-bottom: 20px;
+}
+
+.contact-form-paragraph {
+  margin: 0 auto;
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.7;
+  margin: 0 auto;
+  width: 38em;
+}
+
+.footer-container {
+  background-color: #00364c;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-container h3,
+p {
+  padding-bottom: 25px;
+}
+.footer-container p {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.footer-header {
+  font-size: 1.5rem;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+h3.footer-header {
+  text-align: center;
+}
+
+.credit-container {
+  background-color: #012c3d;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+
+.credit-container a {
+  color: white;
+}
+
+/* team.html */
+
+.billboard {
+  background: linear-gradient(rgba(34, 34, 34, 0.4), rgba(34, 34, 34, 0.4)),
+    url("../images/jmd-billboard.jpg") no-repeat center;
+  width: 100%;
+  padding-top: 230px;
+  padding-bottom: 100px;
+}
+
+.billboard h3,
+.billboard h2 {
+  text-align: left;
+  color: white;
+}
+
+.billboard h3 {
+  font-weight: 300;
+  font-size: 1rem;
+  display: inline;
+}
+
+.billboard h2 {
+  font-size: 3.125rem;
+  font-weight: 800;
+  letter-spacing: 0.625rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding-left: 25px;
+}
+
+.chevron-left-icon {
+  display: inline;
+  color: white;
+  padding-bottom: 2px;
+  padding-left: 25px;
+}
+
+.team-container h2 {
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  color: #444;
+  text-transform: none;
+  text-align: left;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.team-container h2:after,
+.default-header:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  width: 20%; /* Change this to whatever width you want. */
+  padding-top: 5px; /* This creates some space between the element and the border. */
+  border-bottom: solid #0098d5; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.form-header:after {
+  border-bottom: none;
+}
+
+.team-container {
+  margin-left: 60px;
+}
+
+.logo {
+  margin-top: 280px;
+  opacity: 0.1;
+}
+
+.associates-name {
+  margin-top: 20px !important;
+  margin-bottom: 0 !important;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #666;
+  font-weight: bolder;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.associates-occupation {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #231f20;
+  width: 180px;
+  text-align: left;
+}
+
+.associates-experience {
+  font-size: 1.125rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.7;
+  margin: 0 auto;
+  color: #231f20;
+}
+
+.team-spacer {
+  padding-bottom: 60px;
+}
+
+.associates-image {
+  margin: 0 auto;
+}
+
+p.testimonial-p {
+  margin-top: 20px;
+  margin-bottom: -30px;
+}
+
+p.testimonial-italic {
+  font-style: italic;
+  display: inline-block;
+}
+
+.testimonial-name {
+  margin-top: 20px !important;
+  margin-bottom: 0 !important;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #666;
+  font-weight: bolder;
+  line-height: 1.3;
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: -30px;
+}
+
+.fa-star {
+  color: #0098d5;
+}
+
+@media screen and (max-width: 992px) {
+  .bi-chevron-down {
+    margin-top: 150px;
+  }
+
+  .convenient-button {
+    margin-bottom: 30px;
+  }
+
+  .default-header {
+    font-size: 1.5rem;
+  }
+
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 22em;
+  }
+
+  .contact-form-paragraph {
+    width: 32em;
+  }
+
+  .google-maps {
+    padding-left: 160px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .google-maps {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bi-chevron-down {
+    margin-top: 100px;
+  }
+
+  .smile-container-left {
+    margin-left: 20px;
+  }
+
+  .smile-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 16em;
+  }
+
+  .contact-form-paragraph {
+    width: 26em;
+  }
+
+  /*.google-maps {
+    padding-left: 80px;
+  }
+
+  .google-maps iframe {
+    width: 300px;
+  }*/
+}
+
+@media screen and (max-width: 454px) {
+  .bi-chevron-down {
+    margin-top: 40px;
+  }
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 14em;
+  }
+
+  .contact-form-paragraph {
+    width: 20em;
+  }
+
+  .google-maps iframe {
+    width: 300px;
+  }
+}
